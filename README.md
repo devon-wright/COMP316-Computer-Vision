@@ -1,36 +1,10 @@
-# assignment_3
+# COMP316 - Computer Vision Assignment
 
-FIXME: description
+This assignment required the use of Clojure to process a variety of images, of cars, planes and trains, through computer vision techniques to find out how 'similar' images are to each other.
 
-## Installation
+1. Applying Kirch Filters in 8 directions and storing the result in sperate images
+2. Gain histogram data from processed images as well as direction histogram
+3. Calculate Image descriptor to 'describe the original image.'
+4. Go through and match images using their descriptors
 
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar assignment_3-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+See report.pdf for an insight into the code and the results I obtained using the Kirch filters
